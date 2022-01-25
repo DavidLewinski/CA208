@@ -57,3 +57,10 @@ nwests(X, NW) :- norths(X, Y), wests(Y, NW).
 
 seasts(X, SE) :- souths(X, Y), easts(Y, SE).
 swests(X, SW) :- souths(X, Y), wests(Y, SW).
+
+/*
+a   b   c   d   e
+f   g   h   i   j
+k   l   m   n   o
+p   q   r   s   t
+*/
